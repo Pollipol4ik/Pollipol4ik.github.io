@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Your Zoo Shop</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo">
+            <img src="image/Logo.png" class="img-fluid" alt="Zoo Shop Image">
+            <a href="index.html">Your Zoo Shop</a></h1>
+    </div>
+</header>
+
+<section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative">
+        <h1>Добро пожаловать в ваш зоомагазин будущего.</h1>
+        <h2>Your Zoo Shop - это место, где каждый может найти своего идеального питомца и все необходимое для заботы о
+            нем.</h2>
+    </div>
+</section>
+
+<main id="main">
+
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <img src="image/catAndDog.png" class="img-fluid" alt="Zoo Shop Image">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                    <h3>Основные особенности</h3>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i><b>Широкий выбор питомцев и товаров для них:</b>
+                            Your Zoo Shop предлагает только лучших друзей и все, что нужно для заботы о них. Мы
+                            постоянно обновляем ассортимент, чтобы удовлетворить ваши потребности.</li>
+                        <li><i class="bi bi-check-circle"></i><b>Экспертные советы и рекомендации:</b>
+                            Наши специалисты всегда готовы поделиться знаниями и помочь вам с выбором и уходом за
+                            вашим питомцем.</li>
+                        <li><i class="bi bi-check-circle"></i><b>Удобство и простота заказа:</b>
+                            Заказывайте все необходимое для вашего питомца онлайн с удобством и простотой. Мы
+                            гарантируем быструю доставку прямо к вам домой.</li>
+                        <li><i class="bi bi-check-circle"></i><b>Профессиональная поддержка:</b>
+                            Наша команда поддержки клиентов готова помочь вам с любыми вопросами. Мы ценим наших
+                            клиентов и стремимся обеспечить приятный опыт покупок.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title mb-5">
+                <span>Свяжитесь с нами</span>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="info-box mb-4">
+                        <h3>Мы находимся</h3>
+                        <p>по адресу: г. Москва, ул. Прянишникова 2А</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="info-box mb-4">
+                        <h3>Почта</h3>
+                        <p>yourzooshop@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="info-box mb-4">
+                        <h3>Телефон</h3>
+                        <p>+7 (123) 456-7890</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Имя"
+                                       required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email"
+                                       placeholder="Почта" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject"
+                                   placeholder="Тема" required>
+                        </div>
+                        <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5"
+                                          placeholder="Ваше сообщение" required></textarea>
+                        </div>
+                        <br><div class="text-center"><button type="submit">Отправить</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer id="footer">
+
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong><span>Your Zoo Shop</span></strong>. Все права защищены
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
